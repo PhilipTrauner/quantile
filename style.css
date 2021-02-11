@@ -290,8 +290,8 @@ img {
   padding-top: 1.25rem;
 }
 
-.ui-section-footer__layout {
-  column-gap: var(--ui-layout-gutter);
+.ui-section-footer__layout :not(:first-child):not(:last-child) {
+  margin-right: var(--ui-layout-gutter);
 }
 
 .ui-section-footer--copyright {
